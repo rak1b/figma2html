@@ -1,0 +1,161 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans";
+}
+.login_container {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  background: #ffffff;
+}
+
+.content_container {
+  width: 85vw;
+  height: 100vh;
+  margin: auto;
+}
+
+.border {
+  border: 1px solid red;
+}
+.left {
+  height: 100vh;
+  margin-top: 6rem;
+}
+
+.welcome {
+  width: 250px;
+  height: 74px;
+
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 59px;
+  line-height: 74px;
+  letter-spacing: -0.005em;
+  color: #333333;
+}
+
+.thank_p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.0015em;
+  color: rgba(33, 33, 33, 0.6);
+}
+
+.right {
+  height: 100vh;
+}
+.form-group label {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 25px;
+
+  letter-spacing: 0.0015em;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+.form-group ::placeholder {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  letter-spacing: 0.0015em;
+
+  color: #bdbdbd;
+}
+
+.form-group input {
+  width: 100%;
+  height: 48px;
+
+  background: #ffffff;
+
+  /* Gray 3 */
+  border: 1px solid #828282;
+  border-radius: 8px;
+}
+
+.form-group svg {
+  position: absolute;
+  top: calc(50% - 0.7rem);
+  right: 1.5rem;
+}
+.remember_me {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.001em;
+
+  color: #4f4f4f;
+}
+
+.forget_pass {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+
+  /* identical to box height, or 125% */
+  letter-spacing: 0.001em;
+
+  color: #2bb7da;
+}
+
+.signin_btn {
+  width: 100%;
+  height: 64px;
+  left: 96px;
+  top: 673px;
+
+  background: #2bb7da;
+  border-radius: 8px;
+  margin: 3rem auto !important;
+}
+
+.signin_btn span {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 18px;
+  letter-spacing: 0.0125em;
+  color: #ffffff;
+  height: 18px;
+  width: 47px;
+}
+
+.last_p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+
+  letter-spacing: 0.0015em;
+  color: #828282;
+}
+
+.last_p a {
+  color: #2bb7da;
+}
+
+.img_container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.img_container img {
+  width: 100%;
+}
